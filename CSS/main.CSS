@@ -1,3 +1,6 @@
+*{width: 100vw;
+
+}
 body{
     margin: 0;
     font-family: 'Indie Flower', cursive;
@@ -58,7 +61,7 @@ body{
 #About{
     background: black;
 }
-#About>.body{ 
+#About .body{ 
     position: relative;
     background-image: url("../Content/AboutUsImage.jpg");
     background-repeat: no-repeat;
@@ -67,7 +70,7 @@ body{
     background-size: cover;
     color: white;
 }
-#About>.body>.overlay{ 
+#About .body .overlay{ 
     background: black;
     opacity: 0.5;
     position: absolute;
@@ -76,7 +79,7 @@ body{
     left: 0;
     right: 0;
 }
-#About>.body>.content{ 
+#About .body .content{ 
     position: relative;
     padding: 3em;
     font-size: 1em;
@@ -104,11 +107,11 @@ body{
     text-align: center;
 
 }
-.SocialMediaImages > a{
+.SocialMediaImages  a{
     display: inline-block;
 
 }
-.SocialMediaImages > a > img{
+.SocialMediaImages  a  img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -138,7 +141,7 @@ body{
     -webkit-filter: blur(10px);
 }
 
-.LatestReleaseBody > img{
+.LatestReleaseBody  img{
     display: block;
     width: 80%;
     height: auto;
