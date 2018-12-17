@@ -1,9 +1,8 @@
-*{width: 100vw;
 
-}
-body{
+html, body{
     margin: 0;
     font-family: 'Indie Flower', cursive;
+    width: 100%!important;
 }
 .header {
     padding: 15px;
