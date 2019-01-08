@@ -180,3 +180,12 @@ html, body{
 .spacer{
     margin-top: 40px;
 }
+.Video{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 750px;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
